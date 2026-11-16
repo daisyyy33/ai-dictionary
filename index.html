@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 名詞小辭典</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <h1>AI 名詞<em>小辭典</em></h1>
+    <p>給大學生的生成式 AI 名詞解釋：白話定義、生活比喻、實際例子。</p>
+  </header>
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="搜尋名詞，例如：RAG、幻覺" aria-label="搜尋名詞">
+    <div class="cats" id="cats" role="group" aria-label="分類"></div>
+  </div>
+  <p class="count" id="count"></p>
+  <div class="entries" id="entries"></div>
+  <footer>內容依照 AGENTS.md 的格式持續新增。</footer>
+</div>
+<script src="terms.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
